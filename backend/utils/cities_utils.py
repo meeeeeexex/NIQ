@@ -1,0 +1,92 @@
+cities = [{'id': 1, 'name': 'New York', 'country_code': 'US'},
+          {'id': 2, 'name': 'Los Angeles', 'country_code': 'US'},
+          {'id': 3, 'name': 'Chicago', 'country_code': 'US'}, {'id': 4, 'name': 'London', 'country_code': 'UK'},
+          {'id': 5, 'name': 'Dublin', 'country_code': 'IE'}, {'id': 6, 'name': 'Warsaw', 'country_code': 'PL'},
+          {'id': 7, 'name': 'Paris', 'country_code': 'FR'}, {'id': 8, 'name': 'Tokyo', 'country_code': 'JP'},
+          {'id': 9, 'name': 'Sydney', 'country_code': 'AU'}, {'id': 10, 'name': 'Toronto', 'country_code': 'CA'},
+          {'id': 11, 'name': 'Berlin', 'country_code': 'DE'}, {'id': 12, 'name': 'Madrid', 'country_code': 'ES'},
+          {'id': 13, 'name': 'Rome', 'country_code': 'IT'}, {'id': 14, 'name': 'Moscow', 'country_code': 'RU'},
+          {'id': 15, 'name': 'Beijing', 'country_code': 'CN'}, {'id': 16, 'name': 'Mumbai', 'country_code': 'IN'},
+          {'id': 17, 'name': 'Rio de Janeiro', 'country_code': 'BR'},
+          {'id': 18, 'name': 'Mexico City', 'country_code': 'MX'},
+          {'id': 19, 'name': 'Cairo', 'country_code': 'EG'}, {'id': 20, 'name': 'Bangkok', 'country_code': 'TH'},
+          {'id': 21, 'name': 'Seoul', 'country_code': 'KR'}, {'id': 22, 'name': 'Singapore', 'country_code': 'SG'},
+          {'id': 23, 'name': 'Hong Kong', 'country_code': 'HK'}, {'id': 24, 'name': 'Istanbul', 'country_code': 'TR'},
+          {'id': 25, 'name': 'Shanghai', 'country_code': 'CN'}, {'id': 26, 'name': 'Lagos', 'country_code': 'NG'},
+          {'id': 27, 'name': 'São Paulo', 'country_code': 'BR'},
+          {'id': 28, 'name': 'Buenos Aires', 'country_code': 'AR'},
+          {'id': 29, 'name': 'Jakarta', 'country_code': 'ID'}, {'id': 30, 'name': 'Lima', 'country_code': 'PE'},
+          {'id': 31, 'name': 'Dubai', 'country_code': 'AE'}, {'id': 32, 'name': 'Amsterdam', 'country_code': 'NL'},
+          {'id': 33, 'name': 'Osaka', 'country_code': 'JP'}, {'id': 34, 'name': 'Kuala Lumpur', 'country_code': 'MY'},
+          {'id': 35, 'name': 'Santiago', 'country_code': 'CL'}, {'id': 36, 'name': 'Manila', 'country_code': 'PH'},
+          {'id': 37, 'name': 'Vienna', 'country_code': 'AT'}, {'id': 38, 'name': 'Brussels', 'country_code': 'BE'},
+          {'id': 39, 'name': 'Athens', 'country_code': 'GR'}, {'id': 40, 'name': 'Copenhagen', 'country_code': 'DK'},
+          {'id': 41, 'name': 'Stockholm', 'country_code': 'SE'}, {'id': 42, 'name': 'Helsinki', 'country_code': 'FI'},
+          {'id': 43, 'name': 'Budapest', 'country_code': 'HU'}, {'id': 44, 'name': 'Zurich', 'country_code': 'CH'},
+          {'id': 45, 'name': 'Oslo', 'country_code': 'NO'}, {'id': 47, 'name': 'Vancouver', 'country_code': 'CA'},
+          {'id': 48, 'name': 'Montreal', 'country_code': 'CA'}, {'id': 49, 'name': 'Melbourne', 'country_code': 'AU'},
+          {'id': 50, 'name': 'Auckland', 'country_code': 'NZ'}, {'id': 51, 'name': 'Wellington', 'country_code': 'NZ'},
+          {'id': 52, 'name': 'Brisbane', 'country_code': 'AU'}, {'id': 53, 'name': 'Perth', 'country_code': 'AU'},
+          {'id': 54, 'name': 'Adelaide', 'country_code': 'AU'}, {'id': 55, 'name': 'Canberra', 'country_code': 'AU'},
+          {'id': 56, 'name': 'Christchurch', 'country_code': 'NZ'}, {'id': 57, 'name': 'Hobart', 'country_code': 'AU'},
+          {'id': 58, 'name': 'Gold Coast', 'country_code': 'AU'}, {'id': 59, 'name': 'Darwin', 'country_code': 'AU'},
+          {'id': 60, 'name': 'Doha', 'country_code': 'QA'}, {'id': 61, 'name': 'Riyadh', 'country_code': 'SA'},
+          {'id': 62, 'name': 'Jeddah', 'country_code': 'SA'}, {'id': 63, 'name': 'Kuwait City', 'country_code': 'KW'},
+          {'id': 64, 'name': 'Abu Dhabi', 'country_code': 'AE'}, {'id': 65, 'name': 'Sharjah', 'country_code': 'AE'},
+          {'id': 66, 'name': 'Edinburgh', 'country_code': 'GB'}, {'id': 67, 'name': 'Glasgow', 'country_code': 'GB'},
+          {'id': 68, 'name': 'Manchester', 'country_code': 'GB'},
+          {'id': 69, 'name': 'Birmingham', 'country_code': 'GB'},
+          {'id': 70, 'name': 'Liverpool', 'country_code': 'GB'}, {'id': 71, 'name': 'Leeds', 'country_code': 'GB'},
+          {'id': 72, 'name': 'Edmonton', 'country_code': 'CA'}, {'id': 73, 'name': 'Calgary', 'country_code': 'CA'},
+          {'id': 74, 'name': 'Ottawa', 'country_code': 'CA'}, {'id': 75, 'name': 'Winnipeg', 'country_code': 'CA'},
+          {'id': 76, 'name': 'Quebec City', 'country_code': 'CA'}, {'id': 77, 'name': 'Halifax', 'country_code': 'CA'},
+          {'id': 78, 'name': 'Victoria', 'country_code': 'CA'}, {'id': 79, 'name': 'Regina', 'country_code': 'CA'},
+          {'id': 80, 'name': 'Saskatoon', 'country_code': 'CA'}, {'id': 81, 'name': 'Hamilton', 'country_code': 'CA'},
+          {'id': 83, 'name': 'Windsor', 'country_code': 'CA'}, {'id': 84, 'name': 'Kingston', 'country_code': 'CA'},
+          {'id': 85, 'name': "St. John's", 'country_code': 'CA'},
+          {'id': 86, 'name': 'Charlottetown', 'country_code': 'CA'},
+          {'id': 87, 'name': 'Fredericton', 'country_code': 'CA'},
+          {'id': 88, 'name': 'Yellowknife', 'country_code': 'CA'},
+          {'id': 89, 'name': 'Whitehorse', 'country_code': 'CA'}, {'id': 90, 'name': 'Iqaluit', 'country_code': 'CA'},
+          {'id': 91, 'name': 'Anchorage', 'country_code': 'US'}, {'id': 92, 'name': 'Houston', 'country_code': 'US'},
+          {'id': 93, 'name': 'Phoenix', 'country_code': 'US'}, {'id': 94, 'name': 'Philadelphia', 'country_code': 'US'},
+          {'id': 95, 'name': 'San Antonio', 'country_code': 'US'},
+          {'id': 96, 'name': 'San Diego', 'country_code': 'US'},
+          {'id': 97, 'name': 'Dallas', 'country_code': 'US'}, {'id': 98, 'name': 'San Jose', 'country_code': 'US'},
+          {'id': 99, 'name': 'Austin', 'country_code': 'US'}, {'id': 100, 'name': 'Jacksonville', 'country_code': 'US'},
+          {'id': 117, 'name': 'Geneva', 'country_code': 'CH'}, {'id': 118, 'name': 'Lisbon', 'country_code': 'PT'},
+          {'id': 119, 'name': 'Prague', 'country_code': 'CZ'}, {'id': 122, 'name': 'Bucharest', 'country_code': 'RO'},
+          {'id': 123, 'name': 'Sofia', 'country_code': 'BG'}, {'id': 124, 'name': 'Kiev', 'country_code': 'UA'},
+          {'id': 125, 'name': 'Belgrade', 'country_code': 'RS'}, {'id': 126, 'name': 'Zagreb', 'country_code': 'HR'},
+          {'id': 127, 'name': 'Ljubljana', 'country_code': 'SI'},
+          {'id': 128, 'name': 'Bratislava', 'country_code': 'SK'},
+          {'id': 130, 'name': 'Vilnius', 'country_code': 'LT'}, {'id': 131, 'name': 'Tallinn', 'country_code': 'EE'},
+          {'id': 132, 'name': 'Riga', 'country_code': 'LV'}, {'id': 133, 'name': 'Reykjavik', 'country_code': 'IS'},
+          {'id': 134, 'name': 'Valletta', 'country_code': 'MT'}, {'id': 135, 'name': 'Nicosia', 'country_code': 'CY'},
+          {'id': 136, 'name': 'Luxembourg City', 'country_code': 'LU'},
+          {'id': 137, 'name': 'Andorra la Vella', 'country_code': 'AD'},
+          {'id': 138, 'name': 'Monaco', 'country_code': 'MC'},
+          {'id': 139, 'name': 'San Marino', 'country_code': 'SM'},
+          {'id': 140, 'name': 'Vatican City', 'country_code': 'VA'},
+          {'id': 141, 'name': 'Bern', 'country_code': 'CH'}, {'id': 142, 'name': 'Krakow', 'country_code': 'PL'},
+          {'id': 143, 'name': 'Gdansk', 'country_code': 'PL'}, {'id': 144, 'name': 'Marseille', 'country_code': 'FR'},
+          {'id': 145, 'name': 'Lyon', 'country_code': 'FR'}, {'id': 146, 'name': 'Nice', 'country_code': 'FR'},
+          {'id': 147, 'name': 'Hamburg', 'country_code': 'DE'}, {'id': 148, 'name': 'Munich', 'country_code': 'DE'},
+          {'id': 149, 'name': 'Frankfurt', 'country_code': 'DE'},
+          {'id': 150, 'name': 'Dusseldorf', 'country_code': 'DE'}]
+
+# unique_names = set()
+#
+# # Create a new list to store unique city dictionaries
+# unique_cities = []
+#
+# # Iterate over each city dictionary
+# for city in cities:
+#     # Check if the city name is unique
+#     if city['name'] not in unique_names:
+#         # Add the city name to the set of unique names
+#         unique_names.add(city['name'])
+#         # Add the city dictionary to the list of unique cities
+#         unique_cities.append(city)
+#
+# print(unique_cities)
